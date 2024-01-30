@@ -16,7 +16,7 @@
                 <a href="#" class="closebtn" >×</a>
                 <a href="#Home">Home</a>
                 <a href="#sliderDown">Duration</a>
-                <a href="#count">Details</a>
+                <a href="#Details">Details</a>
                 <a href="#contact-us">Contact</a>
             </div>
 
@@ -31,8 +31,8 @@
 
     <!-- Accordion -->
 <div class="acc-container container">        
-    <div class="acc">
-    <div class="acc-head">
+    <div id="sliderDown" class="acc">
+    <div class="acc-head ">
     <p>Singer one.</p>
     </div>
     <div class="acc-content">
@@ -84,7 +84,7 @@
 
 
       
-    <section id="contact-us">
+    <section id="contact-us " class="mb-5">
         <div class="container">
             <div class="head">
                 <h2>Join Us</h2>
@@ -96,30 +96,28 @@
                         <h3><strong>CONTACT INFO</strong></h3>
                         <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
                         </p>
-                        <div class="icons">
+                    </div>
+                    <div class="icons ">
                         <p><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road, New York City, USA</p>
-                        
-                        <p class="red"><i class="fa fa-envelope"></i> hello@uigrid.com</p>
+                        <p ><i class="fa fa-envelope"></i> <span class="color">hello@uigrid.com</span></p>
                         <p><i class="fa fa-phone"></i> 001-000-000-000</p>
-                        </div>
-                        <div class="social-list">
+                    </div>
+                    <div class="social-list ">
                             <i class="fab fa-twitter fa-fw"></i>
                             <i class="fab fa-facebook-f fa-fw"></i>
                             <i class="fab fa-instagram fa-fw"></i>
                             <i class="fab fa-dribbble fa-fw"></i>
                             <i class="fab fa-pinterest fa-fw"></i>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <form>
                         <input class="form-control input-lg" type="text" placeholder="Enter Name">
-                        <input class="form-control input-lg" type="email" placeholder="Enter Email">
-                        <textarea class="form-control input-lg" placeholder="Enter Message"></textarea>
+                        <input class="form-control input-lg mt-2" type="email" placeholder="Enter Email">
+                        <textarea class="form-control input-lg mt-2" placeholder="Enter Message"></textarea>
                         <span id="chars">100</span> Characyer Reamining
-                        <button style="display:block;margin-top:20px" class="btn">Send Message</button>
-                    
                     </form>
+                    <button  class="btn btn-outline-dark mt-4">Send Message</button>
                 </div>
             </div>
         </div>

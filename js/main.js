@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
 
-    $('#countdown-activte').countdown('2024/01/25', function(event) {
+    $('#countdown-activte').countdown('2025/01/25', function(event) {
         $(this).html(event.strftime('days :%M:%S'));
         $(this).html(event.strftime(`<div class="single-countDown"><h2>%D</h2><span>Days</span></div>
         <div class="single-countDown"><h2>%H</h2><span>Hours</span></div>
@@ -62,3 +62,12 @@ $(document).ready(function() {
         $("#chars").text(AmountLeft);
         }
 });
+$("#leftMenu a").click(function(){
+    
+    var sectionId= $(this).attr("href");
+    
+    var positionOfSection = $(sectionId).offset().top;
+    
+    $("html , body").animate({scrollTop:positionOfSection},2000);
+    
+})

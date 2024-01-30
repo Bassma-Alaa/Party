@@ -108,7 +108,12 @@
     padding-left: 150px;
     padding-right: 150px;
     }
-    
+    @media only screen and (max-width: 787px) {
+        .acc-container {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        }
     .acc {
         margin-bottom: 10px;
     }
@@ -234,19 +239,10 @@
         line-height: 26px;
         color:#777;
     }
-    
-    #contact-us .icons{
-        margin-top:50px;
-    }
-    #contact-us .icons p{
-        margin-bottom: 35px;
-    }
+
     #contact-us i{
         margin-right: 20px;
         color:#777;
-    }
-    #contact-us .red{
-        color:#37baba !important;
     }
     
     
@@ -294,3 +290,20 @@
         color: rgb(30, 198, 210);
     }
     
+.color {
+    color: rgb(30, 198, 210);
+}
+ .social-list i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.social-list i:hover{
+    color:#fff;
+    background-color: rgb(30, 198, 210);
+    border:1px solid rgb(30, 198, 210);
+}
